@@ -2,3 +2,7 @@
 
 
 用于Kapacitor服务器的故障转移
+
+MASTER_KAPACITOR_1和MASTER_KAPACITOR_2共用一个备用CLUSTER_KAPACITOR
+
+主服务器无法连通后启用备用服务器中对应的规则。主服务器恢复后将备用关闭主服务器打开。
